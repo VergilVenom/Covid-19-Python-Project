@@ -1,9 +1,37 @@
 # Covid-19 Python Project
 
-Coronavirus disease 2019 (COVID-19) time series listing confirmed cases, reported deaths and reported recoveries. Data is disaggregated by country (and sometimes subregion). Coronavirus disease (COVID-19) is caused by the Severe acute respiratory syndrome Coronavirus 2 (SARS-CoV-2) and has had a worldwide effect. On March 11 2020, the World Health Organization (WHO) declared it a pandemic, pointing to the over 118,000 cases of the Coronavirus illness in over 110 countries and territories around the world at the time.
+## Overview
+This project involves the analysis of COVID-19 data from various countries/regions. The data includes information on confirmed cases, deaths, and recoveries, along with additional metrics such as new cases, deaths, and recoveries. The analysis aims to provide insights into the impact of the pandemic across different regions.
 
-This dataset includes time series data tracking the number of people affected by COVID-19 worldwide, including:
+## Files
+- **Covid-19 Python Data Analysis.pdf**: Contains the data and analysis results.
+- **covid_19_analysis.ipynb**: Jupyter notebook with the Python code for data analysis.
+- **data**: Folder containing the dataset used for analysis.
 
-confirmed tested cases of Coronavirus infection
-the number of people who have reportedly died while sick with Coronavirus
-the number of people who have reportedly recovered from it
+## Analysis
+The analysis includes:
+- Total confirmed cases by country/region.
+- Top countries with the highest number of active cases.
+- Correlation matrix between confirmed, deaths, recovered, and active cases.
+- Fatality rate vs. recovery rate analysis.
+- Visualization of new cases, deaths vs. recoveries, and deaths per 100 cases.
+- Total confirmed cases by WHO region.
+- Top countries with the highest deaths per 100 cases.
+
+
+## Dependencies
+- pandas
+- matplotlib
+- seaborn
+- plotly
+
+
+     
+
+
+
+
+
+
+
+
